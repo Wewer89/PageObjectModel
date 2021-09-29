@@ -1,0 +1,17 @@
+Car brand: BMW X1, Car price: ₹ 38.85 Lakh
+Car brand: BMW 3 Series, Car price: ₹ 44.84 Lakh
+Car brand: BMW X7, Car price: ₹ 95.84 Lakh
+Car brand: BMW 2 Series Gran Coupe, Car price: ₹ 38.88 Lakh
+Car brand: BMW Z4, Car price: ₹ 66.54 Lakh
+Car brand: BMW 7 Series, Car price: ₹ 1.38 Crore
+Car brand: BMW X3, Car price: ₹ 57.50 Lakh
+Car brand: BMW X5, Car price: ₹ 76.47 Lakh
+Car brand: BMW 5 Series, Car price: ₹ 2.17 Crore
+Car brand: BMW M8, Car price: ₹ 52.48 Lakh
+Car brand: BMW 3 Series Gran Limousine, Car price: ₹ 67.90 Lakh
+Car brand: BMW 6 Series GT, Car price: ₹ 66.46 Lakh
+Car brand: BMW X4, Car price: ₹ 1.31 Crore
+Car brand: BMW 8 Series, Car price: ₹ 1.62 Crore
+Car brand: BMW M5, Car price: ₹ 96.03 Lakh
+Car brand: BMW X6, Car price: ₹ 84.27 Lakh
+Car brand: BMW M2, Car price: ₹ 1.95 Crore

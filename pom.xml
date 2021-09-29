@@ -14,7 +14,7 @@
     </properties>
 
     <dependencies>
-        <!-- Below dependencies are required to handle excel files -->
+        <!-- Below dependencies are required to handle excel cars_brands_and_prices -->
         <dependency>
             <groupId>org.apache.poi</groupId>
             <artifactId>poi</artifactId>
@@ -90,9 +90,16 @@
             <version>5.0.8</version>
         </dependency>
 
+        <!-- Ashot -->
+        <dependency>
+            <groupId>ru.yandex.qatools.ashot</groupId>
+            <artifactId>ashot</artifactId>
+            <version>1.5.4</version>
+        </dependency>
+
     </dependencies>
 
-    <!-- Below plugin in necessary in order to execute tests by maven in sequence provided by pom.xml and to create
+    <!-- Below plugin is necessary in order to execute tests by maven in sequence provided by pom.xml and to create
     reports in target folder -->
     <build>
         <plugins>
@@ -103,7 +110,7 @@
                 <configuration>
                     <testFailureIgnore>false</testFailureIgnore>
                     <!-- provide path to testng.xml -->
-                    <suiteXmlFiles>src/main/java/pl/wewerek/maven_and_jankins/build_test_by_mvn/testng.xml</suiteXmlFiles>
+                    <suiteXmlFiles>src/test/java/runner/testng.xml</suiteXmlFiles>
                 </configuration>
             </plugin>
         </plugins>
