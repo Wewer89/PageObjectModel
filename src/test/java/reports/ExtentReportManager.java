@@ -12,7 +12,7 @@ public class ExtentReportManager {
         Date date = new Date();
         String fileName = date.toString().replace(":", "_").replace(" ", "_") + ".html";
 
-        ExtentSparkReporter extentSparkReporter = new ExtentSparkReporter("target\\reports\\" + fileName);
+        ExtentSparkReporter extentSparkReporter = new ExtentSparkReporter("target\\extent-reports\\" + fileName);
         extentSparkReporter.config().setDocumentTitle("Page Object Model");
         extentSparkReporter.config().setTheme(Theme.DARK);
         extentSparkReporter.config().setEncoding("utf-8");

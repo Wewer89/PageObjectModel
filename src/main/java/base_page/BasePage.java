@@ -6,12 +6,12 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.PageFactory;
 
 public class BasePage {
-    public WebDriver driver;
+    public static WebDriver driver;
     public Actions actions;
     public static BaseCarsPage baseCarsPage;
 
     public BasePage(WebDriver driver) {
-        this.driver = driver;
+        BasePage.driver = driver;
         baseCarsPage = new BaseCarsPage(driver);
         PageFactory.initElements(driver, this);
     }
